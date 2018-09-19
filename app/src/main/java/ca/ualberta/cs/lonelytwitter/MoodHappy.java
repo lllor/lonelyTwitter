@@ -6,13 +6,11 @@ public class MoodHappy extends currentmod {
     MoodHappy(){
         super();
     }
-    MoodHappy(String message){
-        super(message);
+    MoodHappy(Date date){
+        super(date);
     }
 
-    public int mood(){
-        return 1;
-    }
+
     @Override
     public String getMessage(){
         String str = "I'm happy";
