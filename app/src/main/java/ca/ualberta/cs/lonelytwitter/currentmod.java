@@ -15,6 +15,8 @@ public abstract class currentmod {
         this.date = date;
         //this.message = message;
     }
+    
+    public Date SetDate(Date date) {this.date = date;}
 
     public Date getDate() {return this.date;}
 
