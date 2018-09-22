@@ -2,6 +2,8 @@ package ca.ualberta.cs.lonelytwitter;
 
 //import currentmod;
 
+import java.util.Date;
+
 public class MoodSad extends currentmod {
     MoodSad(){
         super();
